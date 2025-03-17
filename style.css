@@ -1,0 +1,33 @@
+body{
+    background-color: plum;
+    margin:0;
+    padding: 20px;
+    text-align:center;
+    font-family: Arial,sans-serif;
+}
+#ramen-menu{
+    display:flex;
+    padding:10px;
+    gap:15px;
+    overflow-x: auto;
+    white-space:nowrap;
+    border-bottom:2px solid;
+ 
+}
+.ramen-img{
+    width:250px;
+    height:120px;
+    object-fit:cover;
+    border-radius:10px;
+    cursor:pointer;
+    transition:transform 0.3s ease-in-out;
+    display:block;
+}
+.btn{
+    background-color: black;
+    color: whitesmoke;
+}
+.ramen-img:hover{
+    transform:scale(1.1);
+}
+
