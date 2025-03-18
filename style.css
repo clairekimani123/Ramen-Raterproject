@@ -11,7 +11,8 @@ body{
     gap:15px;
     overflow-x: auto;
     white-space:nowrap;
-    border-bottom:2px solid;
+    border-bottom:2px solid black;
+   
  
 }
 .ramen-img{
@@ -22,6 +23,9 @@ body{
     cursor:pointer;
     transition:transform 0.3s ease-in-out;
     display:block;
+
+    
+    
 }
 .btn{
     background-color: black;

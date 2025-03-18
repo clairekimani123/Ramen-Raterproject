@@ -24,14 +24,25 @@ function displayRamen(){
     
    ramenArray.forEach((ramen) => {
     const img = document.createElement("img");
-    img.src = ramen.image;
-    img.alt = ramen.name;
+    img.src = "miso.jpg";
+    img.alt = "Very flavourful!";
+    img.src="remit.jpg";
+    img. alt="Very flavourful!";
+    img.src="rhiya.jpg"; 
+    img.alt="Delicious!";
+    img.src="shoyu.jpg";
+    img.alt="The best dish ever!";
+    img.src="tonkotsu.jpg";
+    img.alt="it is energetic!";
+
    img.style.cursor = "pointer";
+   
+   ramenMenu.appendChild(img); 
 
    img.addEventListener("click", () => handleClick(ramen));
 
 
-   ramenMenu.appendChild(img);
+   
 
    ramen.remove();
    
